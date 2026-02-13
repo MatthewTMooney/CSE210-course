@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the EternalQuest Project.");
+        QuestManager manager = new QuestManager();
+        manager.Run();
     }
 }
